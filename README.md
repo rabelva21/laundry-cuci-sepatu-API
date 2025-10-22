@@ -162,4 +162,4 @@ Menghapus data cucian tertentu berdasarkan ID.
 ---
 ## 🚀 Link Deploy (Vercel)
 
-[MASUKKAN LINK VERCEL ANDA DI SINI SETELAH DEPLOY]
+https://laundry-cuci-sepatu-api.vercel.app/

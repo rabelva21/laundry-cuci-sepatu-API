@@ -22,7 +22,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.send('API Layanan Cuci Sepatu - Kelompok XX');
+  res.send('API Layanan Cuci Sepatu - Kelompok 08');
 });
 
 
