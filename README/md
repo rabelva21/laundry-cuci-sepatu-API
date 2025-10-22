@@ -1,0 +1,30 @@
+# REST API Layanan Cuci Sepatu
+
+Ini adalah proyek REST API sederhana untuk mengelola data daftar barang cuci sepatu, dibangun menggunakan Node.js, Express.js, dan Supabase.
+
+## Tujuan dan Fitur Utama
+Tujuan proyek ini adalah untuk memenuhi tugas dan mendemonstrasikan proses CRUD (Create, Read, Update, Delete) pada sebuah layanan.
+
+Fitur utama:
+- **Create**: Menambah data cucian sepatu baru.
+- **Read**: Menampilkan semua data dan melakukan filter berdasarkan status.
+- **Update**: Mengubah status cucian (misal: dari 'Diterima' menjadi 'Selesai').
+- **Delete**: Menghapus data cucian dari daftar.
+
+## Struktur Data
+Data item yang dikelola memiliki struktur sebagai berikut:
+- `id`: ID unik (integer)
+- `created_at`: Waktu data dibuat (timestamp)
+- `nama_pelanggan`: Nama pemilik sepatu (text)
+- `merk_sepatu`: Merk sepatu yang dicuci (text)
+- `status`: Status cucian ('Diterima', 'Dicuci', 'Selesai', 'Diambil') (text)
+
+## Contoh Request dan Response
+
+**1. Menambah Data Baru (`POST /items`)**
+- Request Body:
+  ```json
+  {
+    "nama_pelanggan": "Andi",
+    "merk_sepatu": "Converse"
+  }
